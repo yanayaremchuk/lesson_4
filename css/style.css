@@ -1,0 +1,84 @@
+
+* {
+    color: rgb(44, 44, 48);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Medium.woff2') format('woff2'), url('../fonts/Larsseit-Medium.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Bold.woff2') format('woff2'), url('../fonts/Larsseit-Bold.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(17, 60, 10);
+    font-size: xx-large;
+}
+h2{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: medium;
+}
+
+.text-top p{
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    color: rgb(71, 132, 46);
+}
+.text-top li{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(49, 34, 8);
+    font-size: larger;
+}
+span{
+    color: brown;
+}
+.text-bio p{
+    font-family: Larsseit;
+    font-weight: 400;
+    color: rgb(81, 106, 106);
+}
+#paragraph3{
+    color: rgb(40, 11, 68);
+    font-family: Larsseit;
+    font-weight: 500; 
+    font-size: medium;
+}
+
+.text-zap > p {
+    color: brown;
+}
+.textvi{
+    font-family: Larsseit;
+    font-weight: 700; 
+}
+.eko{
+    font-family: Larsseit;
+    font-weight: 500; 
+}
+footer{
+    font-family: Roboto, sans-serif;
+    font-weight: 900; 
+    font-style: normal;
+    color: rgb(80, 12, 26);
+    font-size: x-large;
+}
